@@ -167,6 +167,8 @@ footer {
     margin-right: 0;
 }
 
+
+
 .competence-unit::before {
     content: "";
     display: block;
@@ -174,25 +176,27 @@ footer {
 
     /* background-image: url(../images/antenna\ 1.svg); */
     background-size: contain;
+    background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 5px;
     background-color: var(--button-background-clor);
 }
 
 .antenna-icon::before {
-    background-image: url(../images/antenna\ 1.svg);
+    background-image: url(../images/antenna.svg);
 }
 
 .clock-icon::before {
-    background-image: url(../images/clock\ 1.svg);
+    background-image: url(../images/clock_1.svg);
 }
 
 .diagram-icon::before {
-    background-image: url(../images/diagram\ 1.svg);
+    background-image: url(../images/diagram_1.svg);
 }
 
 .astronaut-icon::before {
-    background-image: url(../images/astronaut\ 1.svg);
+    background-image: url(../images/astronaut_1.svg);
 }
 
 .images-list {
