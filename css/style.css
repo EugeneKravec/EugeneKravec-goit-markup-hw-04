@@ -169,23 +169,23 @@ footer {
 
 
 
-.competence-unit::before {
+/* .competence-unit::before {
     content: "";
     display: block;
     height: 120px;
 
     /* background-image: url(../images/antenna\ 1.svg); */
-    background-size: contain;
+    /* background-size: contain;
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 5px;
-    background-color: var(--button-background-clor);
-}
+    background-color: var(--button-background-clor); */
+} */
 
-.antenna-icon::before {
+/* .antenna-icon::before {
     background-image: url(../images/antenna.svg);
-}
+} */
 
 .clock-icon::before {
     background-image: url(../images/clock_1.svg);
