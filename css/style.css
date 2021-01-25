@@ -186,6 +186,15 @@ footer {
     margin-right: 0;
 }
 
+.competence-unit::before {
+    content: " ";
+    width: 70px;
+    height: 70px;
+
+    background-image: url(/images/antenna.svg);
+    background-size: contain;
+}
+
 .images-list {
     display: flex;
 }
@@ -331,6 +340,17 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
+.competence-item::before {
+    display: inline-block;
+    content: " ";
+    width: 70px;
+    height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    background-image: url(/images/antenna.svg);
+} 
 
 .competence-text {
     width: 270px;
