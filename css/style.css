@@ -116,21 +116,16 @@ footer {
 
 .hero {
     padding: 200px 0;
-    /* background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-       */
-    background-image: url(../images/hero_background\ \(1\).jpg);
-    background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4));
+
     background-repeat: no-repeat;
     background-size: cover;
 
-
     background-color: var(--secondary-background-color);
+    background-image: linear-gradient( 
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4) ), 
+        url(../images/hero_background.jpg);
 }
 
 .hero-text {
@@ -193,13 +188,20 @@ footer {
     margin-right: 0;
 }
 
-.competence-unit::before {
-    content: " ";
-    width: 70px;
-    height: 70px;
+.competence-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    width: 270px;
+    height: 120px;
 
-    background-image: url(/images/antenna.svg);
-    background-size: contain;
+    background: var(--button-background-clor);
+    border-radius: 4px;
+}
+
+.competence-icon:last-child {
+    margin-right: 0;
 }
 
 .images-list {
@@ -347,17 +349,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-
-.competence-item::before {
-    display: inline-block;
-    content: " ";
-    width: 70px;
-    height: 70px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50% 50%;
-    background-image: url(/images/antenna.svg);
-} 
 
 .competence-text {
     width: 270px;
@@ -581,11 +572,6 @@ address {
 .icon-mail:hover,
 .icon-smartphone:hover {
     fill: var(--accent-color);
-}
-
-.icon-antenna {
-    width: 70px;
-    height: 70px;
 }
 
 .social-box {
