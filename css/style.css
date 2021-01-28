@@ -82,6 +82,7 @@ footer {
     padding-top: 12px;
     padding-left: 35px;
     padding-bottom: 20px;
+    margin-left: 40px;
 
     font-weight: 700;
     font-size: 14px;
@@ -450,6 +451,19 @@ img {
     margin-left: auto;
 }
 
+.header-contacts:hover .icon-mail,
+.header-contacts:focus .icon-mail {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+    outline: none;
+}
+
+.header-contacts:hover .icon-smartphone,
+.header-contacts:focus .icon-smartphone {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+    outline: none;
+}
 .header-list .active-page {
     color: var(--accent-color);
 }
@@ -472,9 +486,11 @@ img {
 
 }
 
-.header-contacts:hover {
+.header-contacts:hover,
+.header-contacts:focus {
     color: var(--accent-color);
 }
+
 
 /* Цвет сделал такой, чтобы было видно реакцию */
 .header-link:hover,
@@ -569,10 +585,10 @@ address {
     fill: var(--text-color);
 }
 
-.icon-mail:hover,
+/* .icon-mail:hover,
 .icon-smartphone:hover {
     fill: var(--accent-color);
-}
+} */
 
 .social-box {
     display: flex;
@@ -580,6 +596,10 @@ address {
     width: 206px;
     margin-left: 32px;
     margin-top: 16px;
+}
+
+.footer-container .social-box {
+    margin-left: 70px;
 }
 
 .social-item {
