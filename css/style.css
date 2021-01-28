@@ -565,6 +565,8 @@ address {
     padding-bottom: 30px;
     padding-left: auto;
     padding-right: auto;
+
+    background: var(--secondary-title-color);
 }
 
 .hero-line {
@@ -588,13 +590,31 @@ address {
     height: 44px;   
 }
 
+.social-item .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+
+    background: transparent;
+    fill: var(--icon-color);
+}
+
+.social-item .social-link:focus,
+.social-item .social-link:hover {
+    background: var(--accent-color);
+    fill: var(--logo-color);
+    outline-style: none;
+}
+
 .icon-instagram,
 .icon-twitter,
 .icon-facebook,
 .icon-linkedin {
     width: 20px;
     height: 20px;
-    fill: var(--icon-color);
 }
 
 .footer-box {
@@ -637,40 +657,6 @@ address {
     height: 20px; 
     fill: var(--secondary-title-color);
 }
-/* .social-item .team {
-    background-color: var(--button-background-clor);
-} */
-
-/* .team .icon-instagram,
-.team .icon-twitter,
-.team .icon-facebook,
-.team .icon-linkedin {
-    fill: var(--icon-color);
-}
-.team .icon-instagram:hover,
-.team .icon-twitter:hover,
-.team .icon-facebook:hover,
-.team .icon-linkedin:hover {
-    fill: var(--secondary-title-color);
-} */
-
-/* .social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-
-    background-color: background-color: rgba(255, 255, 255, 0.1);
-} */
-/* 
-.social-link:hover {
-    color: var(--accent-color);
-} */
-
-
 
 .clients {
     padding: 94px 0;
@@ -692,6 +678,11 @@ address {
     margin-right: 30px;
 
     background: var(--primary-background-color);
+}
+
+.clients-item:hover,
+.clients-item:focus {
+    border: 1px solid var(--accent-color);
 }
 
 .clients-item:last-child {
@@ -729,6 +720,5 @@ address {
 .clients-link:focus .icon-Client_5,
 .clients-link:focus .icon-Client_6 {
     fill: var(--accent-color);
-    outline-style: none;
 }
 
