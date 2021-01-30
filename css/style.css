@@ -50,7 +50,6 @@ li {
 body {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    background-color: var(--primary-background-color);
 }
 
 header {
@@ -145,6 +144,8 @@ footer {
 .competence {
     margin: 0 auto;
     padding: 94px 0 47px;
+
+    background-color: var(--primary-background-color);
 }
 
 .our-work {
@@ -155,6 +156,8 @@ footer {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+
+    background-color: var(--primary-background-color);
 }
 
 .our-team {
@@ -672,6 +675,8 @@ address {
 .clients {
     padding: 94px 0;
     margin: 0 auto;
+    
+    background-color: var(--primary-background-color);
 }
 
 .clients-list {
